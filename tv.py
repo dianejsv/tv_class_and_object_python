@@ -9,6 +9,7 @@ class TV:
 # Method to turn on the TV
     def turnOn(self):
         self.on = True
+
 # Method to turn off the TV
 # Method that sets the current channel
 # Method that will set new channel
