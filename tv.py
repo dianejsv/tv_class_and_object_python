@@ -11,6 +11,9 @@ class TV:
         self.on = True
 
 # Method to turn off the TV
+    def turnOff(self):
+        self.on = False
+        
 # Method that sets the current channel
 # Method that will set new channel
 # Method to sets the current volume
