@@ -24,4 +24,7 @@ class TV:
             self.channel = channel
 
 # Method to sets the current volume
+    def getVolume(self):
+        return self.volumelevel
+    
 # Method that will set new volume
