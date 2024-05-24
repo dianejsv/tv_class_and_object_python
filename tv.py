@@ -2,6 +2,7 @@
 class TV:
     # Constructor
     def __init__(self):
+        self.channel = 1
 # Method to turn on the TV
 # Method to turn off the TV
 # Method that sets the current channel
