@@ -41,4 +41,5 @@ class TV:
     def channelDown(self):
         if self.on and self.channel > 1:
             self.channel -= 1
-            
+
+# Method that increments volume level by 1
