@@ -33,3 +33,6 @@ class TV:
             self.volumelevel = volume
 
 # Method that increments channel number by 1
+    def channelUp(self):
+        if self.on and self.channel < 120:
+            self.channel += 1
