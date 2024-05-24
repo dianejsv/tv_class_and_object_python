@@ -26,5 +26,8 @@ class TV:
 # Method to sets the current volume
     def getVolume(self):
         return self.volumelevel
-    
+
 # Method that will set new volume
+    def setVolume(self, volume):
+        if self.on and (1 <= volume <= 7):
+            self.volumelevel = volume
