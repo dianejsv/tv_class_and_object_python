@@ -43,3 +43,6 @@ class TV:
             self.channel -= 1
 
 # Method that increments volume level by 1
+    def volumeUp(self):
+        if self.on and self.volumelevel < 7:
+            self.volumelevel += 1
