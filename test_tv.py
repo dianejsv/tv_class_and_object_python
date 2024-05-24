@@ -18,7 +18,10 @@ def test_tv():
     tv2.turnOn()
     tv2.setChannel(3)
     tv2.setVolume(2)
-    
+
 # ANSI escape codes for purple and bold
+    PURPLE_BOLD = '\033[1;35m'
+    RESET = '\033[0m'
+
 # Print the states of tv1 and tv2 in purple and bold
 # Run the test
