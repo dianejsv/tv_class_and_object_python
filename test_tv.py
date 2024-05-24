@@ -29,3 +29,4 @@ def test_tv():
 
 
 # Run the test
+test_tv()
