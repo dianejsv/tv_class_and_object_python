@@ -1,5 +1,6 @@
 # Class representing the Television
 class TV:
+    # Constructor
 # Method to turn on the TV
 # Method to turn off the TV
 # Method that sets the current channel
