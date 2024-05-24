@@ -13,8 +13,10 @@ class TV:
 # Method to turn off the TV
     def turnOff(self):
         self.on = False
-        
+
 # Method that sets the current channel
+    def getChannel(self):
+        return self.channel
 # Method that will set new channel
 # Method to sets the current volume
 # Method that will set new volume
