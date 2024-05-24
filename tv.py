@@ -31,3 +31,5 @@ class TV:
     def setVolume(self, volume):
         if self.on and (1 <= volume <= 7):
             self.volumelevel = volume
+
+# Method that increments channel number by 1
