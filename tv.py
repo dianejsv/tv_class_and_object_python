@@ -36,3 +36,5 @@ class TV:
     def channelUp(self):
         if self.on and self.channel < 120:
             self.channel += 1
+
+    # Method that decrements channel number by 1
