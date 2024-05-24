@@ -5,6 +5,7 @@ class TV:
         self.channel = 1
         self.volumelevel = 1
         self.on = False
+
 # Method to turn on the TV
 # Method to turn off the TV
 # Method that sets the current channel
