@@ -1,5 +1,6 @@
 # Test drive
 # Import the TV class
+from tv import TV
 # Define TestTV
 # Create two objects
 # Turn on tv1 and set its channel to 30 and volume to 3
