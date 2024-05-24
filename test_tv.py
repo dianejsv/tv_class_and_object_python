@@ -24,4 +24,8 @@ def test_tv():
     RESET = '\033[0m'
 
 # Print the states of tv1 and tv2 in purple and bold
+    print(f"{PURPLE_BOLD}tv1's channel is {tv1.channel} and volume level is {tv1.volumelevel}{RESET}")
+    print(f"{PURPLE_BOLD}tv2's channel is {tv2.channel} and volume level is {tv2.volumelevel}{RESET}")
+
+
 # Run the test
